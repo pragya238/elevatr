@@ -1,0 +1,36 @@
+.dashboard-wrapper {
+  padding: 50px;
+}
+
+.dash-title {
+  font-size: 34px;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.dash-welcome {
+  color: var(--subtext);
+  margin-bottom: 30px;
+  font-size: 19px;
+}
+
+.dash-cards {
+  display: flex;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.dash-card {
+  flex: 1;
+  padding: 30px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.dash-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}

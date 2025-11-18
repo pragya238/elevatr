@@ -1,0 +1,73 @@
+:root {
+  --bg: #f4f5f7;
+  --card: #ffffff;
+  --text: #1f1f1f;
+  --subtext: #555;
+  --accent: #6c63ff;
+  --accent-hover: #574df2;
+  --shadow: 0 8px 24px rgba(0,0,0,0.08);
+  --radius: 14px;
+  --smooth: 0.25s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  transition: var(--smooth);
+}
+
+body {
+  background: var(--bg);
+}
+
+/* HOME PAGE */
+.home-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.home-hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.home-hero p {
+  font-size: 18px;
+  color: var(--subtext);
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btn-primary {
+  padding: 12px 24px;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  padding: 12px 24px;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  color: var(--accent);
+}
+
+.btn-outline:hover {
+  background: var(--accent);
+  color: white;
+}
