@@ -2,11 +2,6 @@
   "version": 2,
   "buildCommand": "npm run build",
   "outputDirectory": "frontend/dist",
-  "env": {
-    "MONGO_URI": "@MONGO_URI",
-    "JWT_SECRET": "@JWT_SECRET",
-    "PORT": "3001"
-  },
   "builds": [
     {
       "src": "backend/src/index.js",
